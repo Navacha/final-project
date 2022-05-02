@@ -80,7 +80,6 @@ app.get("/teachers", async (req, res) => {
     });
   }
 });
-
 app.listen(3080, () => {
   console.log("server running 3080");
 });
